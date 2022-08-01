@@ -6,10 +6,7 @@
   "scripts": {
     "start": "react-scripts start "
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/VidyaVinodK/User-Page-Assessment.git"
-  },
+  
   "keywords": [
     "reactjs",
     "items",
@@ -17,13 +14,23 @@
   ],
   "author": "vidya",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/VidyaVinodK/User-Page-Assessment/issues"
-  },
-  "homepage": "https://github.com/VidyaVinodK/User-Page-Assessment#readme",
+  
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
     "scripts": "^0.1.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
