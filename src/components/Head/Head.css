@@ -26,3 +26,6 @@ body{
     background-color: beige;
     color: rgb(4, 49, 39);
 }
+.logo{
+    flex:1;
+}

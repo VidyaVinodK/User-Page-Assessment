@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 function Body() {
     const detail = localStorage.getItem("userInfo") || "[]";
-    const url = "https://randomuser.me/api/?results=20";
+    const url = "https://randomuser.me/api/?results=10";
     const [data, setData] = useState(JSON.parse(detail));
     useEffect(() => {
         fetch(url).then((res) => {
@@ -15,6 +15,7 @@ function Body() {
             })
         })
     }, [])
+    
 
     return (
       <div className='total'>
@@ -24,10 +25,10 @@ function Body() {
                 <div className='content'>
                   <img src={obj.picture.large}></img>
                   <div className='contain'>
-                  <span className='userName'>Name:{obj.name.first}</span><br></br>
-                  <span className='email'>Email:{obj.email}</span><br></br>
-                  <span className='userName'>Date Of Birth:{obj.dob.age}</span><br></br>
-                  <span className='userName'>Phone:{obj.phone}</span>
+                  <span className='userName'>Name       : {obj.name.title}. {obj.name.first} {obj.name.last}</span><br></br>
+                  <span className='email'>Email         : {obj.email}</span><br></br>
+                  <span className='Age'>Age             : {obj.dob.age}</span><br></br>
+                  <span className='Phone'>Phone        : {obj.phone}</span>
                   </div>
                 
                 </div>

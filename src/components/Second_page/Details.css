@@ -15,6 +15,10 @@
 }
 .searchbutton {
 
-    color: crimson;
+    color: #041f22;
     height: 34px;
+    font-family: ui-monospace;
+    font-size: 19px;
+    border-radius: 16px;
+    border: black ridge 1px;
 }
