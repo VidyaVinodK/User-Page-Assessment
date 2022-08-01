@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(179, 214, 214);
+}
+.container{
+    margin: 0%;
+   
+}
+.nav{
+    display: flex;
+    gap:70px;
+    background-color: rgb(13, 124, 124);
+}
+.nav a{
+    float: right;
+    color: #dddfe7;
+    text-align: center;
+    font-size: 20px;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.container img{
+        height: 47px;
+        margin: 0.5px;
+}
+.nav a:hover{
+    background-color: beige;
+    color: rgb(4, 49, 39);
+}

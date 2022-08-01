@@ -1,0 +1,15 @@
+.searchpage{
+    color: rgb(82 75 82);
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 15px;
+}
+.search-bar{
+    width: 400px;
+    height: 40px;
+    margin: 10px;
+    border: groove; 
+    outline: none;
+    border-radius: 10px;
+}
