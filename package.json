@@ -6,7 +6,6 @@
   "scripts": {
     "start": "react-scripts start "
   },
-  
   "keywords": [
     "reactjs",
     "items",
@@ -14,10 +13,10 @@
   ],
   "author": "vidya",
   "license": "ISC",
-  
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
     "scripts": "^0.1.0"
   },

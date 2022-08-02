@@ -31,3 +31,32 @@ img {
     
     
 }
+.searchpage{
+    color: rgb(82 75 82);
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    /* padding-top: 15px; */
+}
+.search-bar{
+    width: 400px;
+    height: 40px;
+    margin: 10px;
+    border: groove; 
+    outline: none;
+    border-radius: 10px;
+}
+.searchbutton {
+
+    color: #041f22;
+    height: 34px;
+    font-family: ui-monospace;
+    font-size: 19px;
+    border-radius: 16px;
+    border: black ridge 1px;
+    transition-duration: 0.4s;
+}
+.searchbutton:hover{
+    background-color: #041f22;
+    color: antiquewhite;
+}

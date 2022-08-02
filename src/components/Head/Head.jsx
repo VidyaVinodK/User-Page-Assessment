@@ -1,8 +1,10 @@
 import React from 'react'
 import Body from '../Body/Body'
 import './Head.css'
-import Details from '../Second_page/Details'
+
 import Logo from './logo.jpg'
+import { BrowserRouter,Routes,Route} from 'react-router-dom'
+
 
 function Head() {
   return (
@@ -19,9 +21,9 @@ function Head() {
             <a href="#contact">CONTACT</a>
           </div>
         </div>
-        <Details/>
+        {/* <Details/> */}
         <Body/>
-        
+  
     </>
   )
 }
